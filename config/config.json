@@ -1,0 +1,42 @@
+{
+    /****
+	* IMAGE PROCESSING
+	****/
+    "tophat_coeff": 12,
+    "thresh_coeff": 8,
+    "output_width": 800,
+    "calibration_file": "rvs/config/calibrate.yaml",
+    "pixel_mm_ratio": 255,
+    "kernel_size": [13,5],
+
+    /****
+	* DETECTOR AND DESCRIPTOR
+	****/
+    "min_contour_area": 150,
+    "max_contour_area": 800,
+    "zernike_degree": 9,
+    "svm_mode_file": "rvs/resources/zernike9_linear.joblib",
+
+    /****
+	* PATHING
+	****/
+    "pathing_type": "convex",
+    "tool_length": "200",
+    "path_file": "path.txt",
+
+    /****
+	* BLUETOOTH
+	****/
+    "address": "00:18:E5:04:0B:6B",
+    "port": 1,
+    "delay": 1,
+
+
+    /****
+	* ROBOT PARAMETERS
+	****/
+    "tool_offset": [0,0],
+    "camera_offset": [0,0],
+    "tool_angle": 0,
+    "zernike_degree": 9
+}

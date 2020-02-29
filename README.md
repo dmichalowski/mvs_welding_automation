@@ -1,5 +1,5 @@
 # mvs_welding_automation
-Creation of a fully autonomous system enabling robot positioning in order to perform spot welds on metal sheets, using image analysis to obtain information about the welded object and the location of markers. Project carried out as part of the diploma thesis.
+Development of a fully autonomous system enabling robot positioning in order to perform spot welds on metal sheets, using image analysis to obtain information about the welded object and the location of markers. Project carried out as part of the engineer's thesis.
 - design and construction of camera and control system mount,
 - image acquisition, processing and analysis using machine learning methods,
 - generating a robot motion path,
